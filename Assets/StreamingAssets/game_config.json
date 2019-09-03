@@ -1,0 +1,29 @@
+{
+"GridWidth": 30,
+"GridLength": 60,
+"GridCellWidth": 1,
+"GridCellLength": 1,
+"Buildings": [
+	{
+		"Width": 2,
+		"Height": 1,
+		"Length": 2,
+		"Power": 10,
+		"Type": 1
+	},
+	{
+		"Width": 6,
+		"Height": 2,
+		"Length": 6,
+		"Power": 15,
+		"Type": 2
+	},
+	{
+		"Width": 2,
+		"Height": 4,
+		"Length": 6,
+		"Power": 20,
+		"Type": 3
+	}
+]
+}
