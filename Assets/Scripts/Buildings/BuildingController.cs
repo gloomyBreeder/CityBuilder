@@ -48,6 +48,7 @@ public class BuildingController : BasicManager<BuildingController>
     {
         switch (State)
         {
+            case BuildingState.Leaving:
             case BuildingState.None:
                 if (_currentBuilding != null)
                 {

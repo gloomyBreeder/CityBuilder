@@ -60,7 +60,7 @@ public class GridController : BasicManager<GridController>
 
     public void UpdateGrid(BuildingState state)
     {
-        if (state == BuildingState.Leaving)
+        if (state == BuildingState.Leaving || state == BuildingState.None)
         {
             foreach (var cell in _cells)
             {
